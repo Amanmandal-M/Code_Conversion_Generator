@@ -6,6 +6,11 @@
   border-radius: 5px;
 }
 
+.mainContent{
+  color: blue;
+  text-align: center;
+}
+
 .form-group {
   margin-bottom: 20px;
 }
