@@ -1,5 +1,5 @@
 const { Configuration, OpenAIApi } = require("openai");
-const { codeConversionModel } = require("../models/codeConversionModel");
+const { codeConversionModel } = require("../models/codeConversionModels");
 
 require("dotenv").config();
 

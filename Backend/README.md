@@ -1,11 +1,3 @@
-<h1 align="center">Code Conversion Generator</h1>
-
-<details>
-
-<summary>Backend Docs</summary>
-
-<br>
-
 <h1 align="center">Code Conversion Generator Backend</h1>
 
 <br>
@@ -15,7 +7,6 @@
 <br>
 
 This is Code conversion generator so developers or user they can convert their code in any languages.
-
 
 <br>
 
@@ -71,7 +62,9 @@ Note :
 
 - You can use any of them .
 
+- PORT = `8080`
 - Before doing anything first create .env file and put your `OPENAI_API_KEY = <Your OpenAI Key>`
+- `MONGO_URI = <Your MongoAtlas Link>`
 
 <br>
 
@@ -79,30 +72,6 @@ Note :
 
 <h2>
     <strong>
-        <a href="https://code-converter.up.railway.app/">Railway</a>
+        <a href="https://code-converter.up.railway.app">Railway</a>
     </strong>
 </h2>
-
-<br>
-
-</details>
-
-<br>
-
-<details>
-
-<summary>Frontend Docs</summary>
-
-<br>
-
-<h1 align="center">Code Conversion Generator Frontend</h1>
-
-<br>
-
-## About
-
-<br>
-
-This is Code conversion generator so developers or user they can convert their code in any languages.
-
-</details>
