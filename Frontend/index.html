@@ -2,13 +2,34 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://th.bing.com/th/id/OIP.PImzt1FWyESqWVuNvIPdjAAAAA?w=150&h=180&c=7&r=0&o=5&pid=1.7" type="image/x-icon">
     <link rel="stylesheet" href="./css/index.css">
     <title>Code Converter</title>
 </head>
 <body>
-    
+    <div class="container">
+        <h1>Code Conversion Generator</h1>
+        <div class="form-group">
+          <label for="code">Code:</label>
+          <textarea id="code" rows="12" cols="40"></textarea>
+        </div>
+        <div class="form-group">
+          <label for="language">Language:</label>
+          <input type="text" id="language">
+        </div>
+        <div class="form-group">
+          <button id="convert-btn">Convert</button>
+          <button id="debug-btn">Debug</button>
+          <button id="quality-btn">Check Quality</button>
+        </div>
+        <div class="output">
+          <h2>Output:</h2>
+          <div id="output"></div>
+          <div id="loader" class="loader"></div>
+          <button id="copy-btn" class="copy-button" onclick="copyOutput()">Copy</button>
+        </div>
+      </div>    
+    <script src="./js/index.js"></script>
 </body>
 </html>
-<script src="./js/index.js"></script>
