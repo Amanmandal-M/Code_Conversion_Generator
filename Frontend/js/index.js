@@ -18,7 +18,7 @@ async function performRequest(fetchRequest) {
   const language = languageInput.value;
 
   if (code === "" && language === "") {
-    return (outputDiv.textContent = "First Write Code of language");
+    return (outputDiv.textContent = "First Write Code or language");
   }
 
   outputDiv.innerHTML = "";
@@ -47,7 +47,7 @@ convertBtn.addEventListener("click", () => {
   const language = languageInput.value;
 
   if (code === "" || language === "") {
-    return (outputDiv.textContent = "First Write Code of language");
+    return (outputDiv.textContent = "First Write Code or language");
   }
 
   performRequest(convert);
