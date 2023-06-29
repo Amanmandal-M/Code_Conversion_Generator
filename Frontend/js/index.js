@@ -1,7 +1,8 @@
-const baseUrl = "https://code-converter-backend.onrender.com/api";
-const convert = `${baseUrl}/convert`;
-const debug = `${baseUrl}/debug`;
-const qualityCheck = `${baseUrl}/quality`;
+const baseUrl = "https://code-converter-backend.onrender.com";
+const defaultUrl = `${baseUrl}/api`
+const convert = `${defaultUrl}/convert`;
+const debug = `${defaultUrl}/debug`;
+const qualityCheck = `${defaultUrl}/quality`;
 
 // Add your JavaScript code here
 const convertBtn = document.getElementById("convert-btn");
