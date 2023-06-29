@@ -1,4 +1,4 @@
-const baseUrl = "https://code-converter.up.railway.app/api";
+const baseUrl = "https://code-converter-backend.onrender.com/api";
 const convert = `${baseUrl}/convert`;
 const debug = `${baseUrl}/debug`;
 const qualityCheck = `${baseUrl}/quality`;
